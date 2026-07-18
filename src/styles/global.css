@@ -9,7 +9,8 @@
 
     --color-green: #B0CB1F;
     --color-white: #FFFFFF;
-    --color-black: #333231;
+    --color-black-1: #000000;
+    --color-black-2: #333231;
     --color-green-light: rgba(176, 203, 31, 10%);
     --color-yellow: #EFD33D;
     --color-grey-1: #B1B5B8;
@@ -24,12 +25,12 @@
     --font-size-body: 16px;
     --font-size-button: 16px;
 
-    -font-weight-h1: 700;
-    -font-weight-h2: 700;
-    -font-weight-h3: 700;
-    -font-weight-h4: 700;
-    -font-weight-body: 400;
-    -font-weight-button: 500;
+    --font-weight-h1: 700;
+    --font-weight-h2: 700;
+    --font-weight-h3: 700;
+    --font-weight-h4: 700;
+    --font-weight-body: 400;
+    --font-weight-button: 500;
 
-    --font-family-primary: font-family: "Inter", sans-serif;
+    --font-family-primary: "Inter", sans-serif;
 }

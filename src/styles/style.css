@@ -1,1 +1,39 @@
 @import url(./global.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white);
+    padding: 20px 60px;
+}
+
+.nav-bar-header {
+    display: flex;
+    align-items: center;
+    gap: 425px;
+}
+
+.navigation-header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navigation-header ul li a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+}
+
+.btn-nav-header {
+    text-decoration: none;
+    color: var(--color-black-2);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-button);
+    background-color: var(--color-green);
+    padding: 12px 30px;
+    border-radius: 15px 3px 15px 3px;
+}
